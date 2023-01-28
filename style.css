@@ -75,6 +75,7 @@ button {
     color: white;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 600;
+    -webkit-appearance: none;
 }
 
 .copy {
