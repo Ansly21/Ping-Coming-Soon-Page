@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.dashboard {
+    width: 600px;
+    margin: 4rem 0;
+}
+
+.launch {
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+    color: black;
+}
+
+.subscribe {
+    font-weight: 300;
+    color: hsl(209, 33%, 12%);
+    font-size: 1.2rem;
+    margin: 0.8rem 0
+}
+
+.inp-btn {
+    margin: 1rem 0 0 0;
+    display: flex;
+}
+
+input {
+    border-radius: 30px;
+    border: 1px solid hsl(223, 100%, 88%);
+    padding: 1rem 12rem 1rem 1.9rem ;
+    margin-right: 1rem;
+    outline-color: hsl(223, 85%, 74%);
+    font-size: 1rem;
+
+}
+
+input::placeholder {
+    color: hsl(223, 100%, 88%);
+
+}
+button {
+    border-radius: 30px;
+    padding: 1rem 4rem;
+    border: 0;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+}
+
+.copy {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.fb, .twitter, .instagram {
+    border: 2px solid hsl(223, 92%, 90%);
+    border-radius: 100%;
+    padding: 5px 8px;
+    display: flex;
+    color: hsl(223, 87%, 63%);
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: blue;
+}
+
+p {
+   width: 600px;
+   text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.bord {
+    border: 1px solid rgb(51, 191, 160);
+    border-radius: 30px;
+    width: 630px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    display: none;
+}
+
+.bord h3 {
+    margin: 0;
+    margin-left: 12rem;
+    letter-spacing: 15px;
+    font-weight: 600;
+    color: yellow
+}
+
+.load {
+    border-radius: 20px;
+    background-color: rgb(11, 150, 11);
+    width: 0%;
+    animation: loading 2s ease-in-out;
+ 
+   
+}
+
+@keyframes loading {
+    0% {
+
+        width: 0%;
+    }
+
+    66% {
+
+        width: 66%;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    main {
+        min-width: 65px;
+        width: 600px;
+    }
+    .inp-btn {
+        flex-direction: column;
+
+    }
+
+    input {
+        margin-right: 0;
+    }
+
+    button {
+        margin-top: 1rem;
+        width: 420px;
+        font-size: 1rem;
+    }
+
+    .dashboard {
+        width: 400px;
+    }
+
+    .bord {
+        width: 420px;
+    }
+
+    .bord h3 {
+        margin-left: 5rem;
+    }
+}
