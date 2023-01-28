@@ -10,13 +10,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+  - [Author](#author)
 
 ## Overview
 
@@ -37,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Ansly21/Ping-Coming-Soon-Page)
+- Live Site URL: (https://ping-coming-soon-page-ansly.netlify.app/)
 
 ## My process
 
@@ -49,8 +44,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
-
-
 
 
 ### Continued development
