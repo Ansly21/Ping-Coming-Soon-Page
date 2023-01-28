@@ -51,6 +51,8 @@ span {
 .inp-btn {
     margin: 1rem 0 0 0;
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 input {
@@ -60,7 +62,7 @@ input {
     margin-right: 1rem;
     outline-color: hsl(223, 85%, 74%);
     font-size: 1rem;
-
+   
 }
 
 input::placeholder {
@@ -177,7 +179,8 @@ button {
     }
 
     input {
-        margin-right: 0;
+        width: 420px;
+        margin: auto;
     }
 
     button {
