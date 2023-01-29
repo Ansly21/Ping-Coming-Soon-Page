@@ -17,7 +17,7 @@ function notify() {
         })
        
         setTimeout(() => {
-            if(inp.value.includes("@yahoo.com") || inp.value.includes("@gmail.com")) {
+            if(inp.value.slice(-3) == "com") {
                 bord.style.display ='none'
                 par.innerHTML = "<span style='color:green'>Success</span>"
 
@@ -31,5 +31,4 @@ function notify() {
             
             }
         }, 2000)
-    
 }
