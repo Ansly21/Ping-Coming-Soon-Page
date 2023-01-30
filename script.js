@@ -17,7 +17,7 @@ function notify() {
         })
        
         setTimeout(() => {
-            if(inp.value.slice(-3) == "com") {
+            if(inp.value.slice(-4) == ".com") {
                 bord.style.display ='none'
                 par.innerHTML = "<span style='color:green'>Success</span>"
 
